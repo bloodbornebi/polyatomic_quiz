@@ -5,7 +5,7 @@ function reset() {
 
 function generate(content) {
  var result = document.getElementById("quiz");
- result.innerHTML = "content";
+ result.innerHTML = content;
 };
 
 function showButtons() {
