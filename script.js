@@ -4,10 +4,8 @@ function reset() {
 };
 
 function generate(content) {
-	var test = document.getElementById("test");
-	test.innerHTML = "Made it";
  var quiza = document.getElementById("quiz");
- quiza.innerHTML = content;
+ quiza.innerHTML = "content";
 };
 
 function showButtons() {
