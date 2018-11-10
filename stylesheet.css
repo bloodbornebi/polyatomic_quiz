@@ -1,7 +1,7 @@
-.hidden {
-  display: none;
-}
-
 p {
   color: blue;
+}
+
+.hidden {
+  display: none;
 }
