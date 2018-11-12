@@ -9,7 +9,9 @@ function generate(content) {
 };
 
 function showButtons() {
- document.getElementById("hidden").style.display = "block";
+	document.getElementById("hidden").style.display = "block";
+	var pai = document.getElementById("pai");
+	var formula = document.getElementById("formula");
 };
 
 function pai() {
