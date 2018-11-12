@@ -49,9 +49,7 @@ function pai() {
 			quiz[i + 1] = [ions[index][1], ions[index][0]];
 		}
 	}
-	var result = document.getElementById("quiz");
- 	result.innerHTML = quiza;
- //generate(quiza);
+	generate(quiza);
 };
 
 function formula() {
