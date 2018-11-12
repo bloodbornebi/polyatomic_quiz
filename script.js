@@ -21,11 +21,11 @@ function pai() {
 	var quiz = [["Question", "Answers"]];
 
  for (i = 0; i < 5; i++) {
-	 generate("it made it");
 	var index = Math.floor(Math.random() * ions.length)
 	var append = true;
 
 	quiza += ions[index][0] + "&emsp;&emsp;" + ions[index][1] + "<br>";
+	generate(quiza);
 
 	for (t = 0; t < quiz.length; t ++) {
 		if (quiz[t + 1][0] == ions[index][0]) {
