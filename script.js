@@ -21,6 +21,7 @@ function pai() {
 	var quiz = [["Question", "Answers"]];
 
  for (i = 0; i < 5; i++) {
+	 generate("it made it");
 	var index = Math.floor(Math.random() * ions.length)
 	var append = true;
 
