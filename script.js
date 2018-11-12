@@ -39,7 +39,7 @@ function pai() {
  }
 
  for (i = 0; i < 5; i++) {
-	var index = Math.floor(Math.random() * ions.length)
+	var index = Math.floor(Math.random() * ions.length);
 	var append = true;
 	quiza += ions[index][1] + "&emsp;&emsp;" + ions[index][0] + "<br>";
 	for (t = 0; t < quiz.length; t ++) {
