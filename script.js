@@ -24,7 +24,7 @@ function pai() {
 	var index = Math.floor(Math.random() * ions.length)
 	var append = true;
 
-	quiza += ions[index][0] + "&emsp;&emsp;" + ions[index][1] + "<br>";
+	quiza << ions[index][0] + "&emsp;&emsp;" + ions[index][1] + "<br>";
 	generate(quiza);
 
 	for (t = 0; t < quiz.length; t ++) {
