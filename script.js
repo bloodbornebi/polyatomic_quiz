@@ -19,7 +19,7 @@ function pai() {
 	var quiz = [["Question", "Answers"]];
 
 	for (i = 0; i < 5; i++) {
-		var index = Math.floor(Math.random() * ions.length)
+		var index = Math.floor(Math.random() * ions.length);
 		var append = true;
 
 		quiza += ions[index][0] + "&emsp;&emsp;" + ions[index][1] + "<br>";
