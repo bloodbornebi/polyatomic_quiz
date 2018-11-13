@@ -23,7 +23,7 @@ function pai() {
 	for (i = 0; i < 5; i++) {
 		var index = Math.floor(Math.random() * ions.length);
 		//var append = true;
-
+		// TODO: Fix this obnoxious output
 		quiza += "<p>" + ions[index][0] + "&emsp;&emsp;" + ions[index][1] + "</p>";
 
 		//for (t = 0; t < quiz.length; t ++) {
