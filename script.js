@@ -24,7 +24,7 @@ function pai() {
 		var index = Math.floor(Math.random() * ions.length);
 		//var append = true;
 
-		quiza += "<p>" + ions[index][0] + "&emsp;&emsp;" + ions[index][1] + "<br>" + "</p>";
+		quiza += "<p>" + ions[index][0] + "&emsp;&emsp;" + ions[index][1] + "</p>";
 
 		//for (t = 0; t < quiz.length; t ++) {
 		// 	if (quiz[t + 1][0] == ions[index][0]) {
@@ -40,7 +40,7 @@ function pai() {
 		var index = Math.floor(Math.random() * ions.length);
 		//var append = true;
 
-		quiza += "<p>" + ions[index][1] + "&emsp;&emsp;" + ions[index][0] + "<br>" + "</p>";
+		quiza += "<p>" + ions[index][1] + "&emsp;&emsp;" + ions[index][0] + "</p>";
 
 		//for (t = 0; t < quiz.length; t ++) {
 		//	if (quiz[t + 1][0] == ions[index][0]) {
